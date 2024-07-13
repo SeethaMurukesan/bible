@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #326db1;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav {
+   /* background-color: #f1f1f7;
+    padding: 1ex;
+    background-image: url(./bible.image.jpg);
+    background-position: center;
+    background-repeat: no-repeat; */
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image:url("./bible.image.jpg") ;
+    background-position: center;
+    object-fit: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0.5em 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #adaf4c;
+    
+  }
+  
+  
+  main {
+    padding: 1em;
+    
+  }
+  
+  section {
+    margin-top: 1em;
+  }
+  
